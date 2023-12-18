@@ -128,14 +128,14 @@
             -->
                 
             </form>
-                  
+   <!--               
 	<script type="text/javascript" src="/_layouts/15/clienttemplates.js"></script>
 	<script type="text/javascript" src="/_layouts/15/clientforms.js"></script>
 	<script type="text/javascript" src="/_layouts/15/clientpeoplepicker.js"></script>
 	<script type="text/javascript" src="/_layouts/15/autofill.js"></script>    
     <script src="https://kendo.cdn.telerik.com/2021.3.1207/js/kendo.all.min.js"></script>
 
-
+   -->
 
    <script type="text/javascript" src="http://localhost:1234/index.js"></script>
    
