@@ -1,0 +1,13 @@
+{
+  "sourceDirectory": "src",
+  "sharePointSiteUrl": "https://secol.sharepoint.com/sites/Intranet",
+  "workspaceRoot": "c:\\sistemas-expertos\\proyectos\\DashboardSE\\react-admin",
+  "publishWorkspaceOptions": {
+    "destinationFolder": "/",
+    "globPattern": "c:\\sistemas-expertos\\proyectos\\DashboardSE\\react-admin\\src\\**\\*.*",
+    "localRoot": "c:\\sistemas-expertos\\proyectos\\DashboardSE\\react-admin\\src"
+  },
+  "publishingScope": "SaveOnly",
+  "authenticationType": "Digest",
+  "remoteFolders": ["/SiteAssets/**/*", "/SitePages/**/*"]
+}
