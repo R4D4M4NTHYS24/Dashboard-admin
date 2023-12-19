@@ -22,17 +22,18 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   return (
-    <MenuItem
-      active={selected === title}
-      style={{
-        color: colors.grey[100],
-      }}
-      onClick={() => setSelected(title)}
-      icon={icon}
-      to={to} // Agrega la propiedad 'to' aquí
-    >
-      <Typography>{title}</Typography>
-    </MenuItem>
+    <Link to={to}>
+      <MenuItem
+        active={selected === title}
+        style={{
+          color: colors.grey[100],
+        }}
+        onClick={() => setSelected(title)}
+        icon={icon}
+      >
+        <Typography>{title}</Typography>
+      </MenuItem>
+    </Link>
   );
 };
 
@@ -97,7 +98,7 @@ const Sidebarbank = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`../../assets/user.png`}
+                  src={`../../../public/assets/logoSE.png`}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
@@ -108,9 +109,9 @@ const Sidebarbank = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Ed Roh
+                  Sistemas Expertos
                 </Typography>
-                <Typography variant="h5" color={colors.greenAccent[500]}>
+                <Typography variant="h5" color={colors.redAccent[200]}>
                   VP Fancy Admin
                 </Typography>
               </Box>
